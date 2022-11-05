@@ -4,7 +4,7 @@ CREATE DATABASE pokemon;
 USE pokemon; 
 
 CREATE TABLE dragon(
-	`ID` INT PRIMARY KEY NOT NULL,
+    `ID` INT PRIMARY KEY NOT NULL,
     `Pokemon` VARCHAR(20) NOT NULL,
     `Fast move` VARCHAR(20) NOT NULL,
     `Charge move` VARCHAR(20) NOT NULL,
